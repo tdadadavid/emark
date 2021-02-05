@@ -43,4 +43,25 @@ require "Display/partials/header.php";
 // bought from my website
 //the user(for those who are registered)
 //can be able to open a kiosk to sell thier
-//products ......  //
+//products ......
+//  there would be age verification and this
+//would be based on the user's residential state
+//or country policies//
+
+
+/* Database structure
+--> there would be a table for all who register has
+1 . user: they are customers who also use our kiosk
+2. Customers: they are registered buyers from us
+
+    similarities
+*they both enjoy discounts as their star or point rises
+
+    differences
+*The customers would have slower points and
+*The users would have faster points rate
+
+--> there would be like a history or log table
+for each user and customer to keep check
+of their activities on the site
+*/

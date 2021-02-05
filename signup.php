@@ -27,8 +27,8 @@
             </label>
 
             <label class="control-label d-inline-flex">
-                <input type="text" class="form-control" name="password" placeholder="password">
-                <input type="text" class="form-control" name="passwordConfirmation" placeholder="passwordConfirmation">
+                <input type="password" class="form-control" name="password" placeholder="password">
+                <input type="password" class="form-control" name="passwordConfirmation" placeholder="passwordConfirmation">
             </label>
 
 
