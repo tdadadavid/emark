@@ -1,8 +1,12 @@
 <?php
 
-class Connection{
 
-    public static function connectToDb(): PDO|string
+class connection
+{
+    /**
+     * @return PDO/string
+     */
+    public static function connectToDb(): string
     {
 
         try {
@@ -11,13 +15,12 @@ class Connection{
             $dbusername = "root";
             $dbpassword = "dadadavidtofunmi";
 
-            return new PDO("$server;$dbName" , $dbusername , $dbpassword);
+            return new PDO("$server;$dbName", $dbusername, $dbpassword);
         }
         catch (PDOException $exception){
-           return $exception->getMessage();
+            return "ERROR = " . $exception->getMessage();
         }
 
 
     }
-
 }
